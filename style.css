@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        
+        marquee{
+            margin-top: 5%;
+            font-size: 70px;
+            font-weight: 300;
+            font-family: 'Bree Serif', serif;
+            color: rgb(252, 199, 8);
+            text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 
+            0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 
+            0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 
+            0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9), 2px 2px 2px rgba(206,89,55,0);
+            color: #F9FF00;  
+            margin-bottom: 5%;
+        }
+        
+        
+        
+        .back{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 20px;
+        font-family: 'Bree Serif', serif;
+        text-transform: capitalize;
+        font-size: 40px;
+        margin-bottom: 1%;
+        color: black;
+        background: #648bb3;
+        letter-spacing: .1em;
+        text-shadow: 4px 3px 0 #969696;
+        }
+        
+        .logo img {
+            margin-bottom: 5%;
+        }
+        
+        
+        .car {
+        color: yellow;
+        font-family: 'Bree Serif', serif;
+        font-size: 60px;
+        margin-bottom: 2%;
+        letter-spacing: .3em;
+        text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 2px 2px 2px rgba(206,89,55,0);
+        background: #648bb3;
+        text-align: center;
+        }
+        
+        .container{
+            display: flex;
+            margin-left: 3%;
+            margin-right: 3%;
+            
+        }
+        
+        
+        
+        .container .card1 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+        
+        .container .card2 {
+            margin-right: 6%;
+            border: 2mm ridge #648bb3;
+        }
+        .container .card3 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+
+        .container .card4 {
+            border: 2mm ridge #648bb3;
+        }
+
+
+        .info {
+            font-size: 30px;
+            
+        }
+
+
+        
+        .about {
+            background: #648bb3;
+            margin-top: 10%;
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .card1 .bx  {
+            position: absolute;
+            left: 20%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+        
+        .card2 .bx  {
+            position: absolute;
+            left: 44%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card3 .bx  {
+            position: absolute;
+            font-size: 25px;
+            left: 71%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card4 .bx {
+            position: absolute;
+            font-size: 25px;
+            left: 96%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+        
+
+        h2 {
+            text-align: center;
+            color: black;
+            background: #648bb3;
+            font-family: 'Playfair Display', serif;
+        }
+
+        a {
+            color: black;
+        }
+
+
+        a:hover {
+            color: blue;
+        }
+
+
+
+
+
+
+
+        .container2{
+            display: flex;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            
+        }
+
+        .container2 .card5 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+        
+        .container2 .card6 {
+            margin-right: 6%;
+            border: 2mm ridge #648bb3;
+        }
+        .container2 .card7 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+
+        .container2 .card8 {
+            border: 2mm ridge #648bb3;
+        }
+
+        .card5 .bx  {
+            position: absolute;
+            left: 20%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+        
+        .card6 .bx  {
+            position: absolute;
+            left: 44%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card7 .bx  {
+            position: absolute;
+            font-size: 25px;
+            left: 71%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card8 .bx {
+            position: absolute;
+            font-size: 25px;
+            left: 96%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+
+
+
+
+        .container3{
+            display: flex;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            
+        }
+
+        .container3 .card9 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+        
+        .container3 .card10 {
+            margin-right: 6%;
+            border: 2mm ridge #648bb3;
+        }
+        .container3 .card11 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+
+        .container3 .card12 {
+            border: 2mm ridge #648bb3;
+        }
+
+        .card9 .bx  {
+            position: absolute;
+            left: 20%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+        
+        .card10 .bx  {
+            position: absolute;
+            left: 44%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card11 .bx  {
+            position: absolute;
+            font-size: 25px;
+            left: 71%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card12 .bx {
+            position: absolute;
+            font-size: 25px;
+            left: 96%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+
+        .container4{
+            display: flex;
+            margin-left: 3%;
+            margin-right: 3%;
+            margin-top: 5%;
+            
+        }
+
+        .container4 .card13 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+        
+        .container4 .card14 {
+            margin-right: 6%;
+            border: 2mm ridge #648bb3;
+        }
+        .container4 .card15 {
+            margin-right: 4%;
+            border: 2mm ridge #648bb3;
+        }
+
+        .container4 .card16 {
+            border: 2mm ridge #648bb3;
+        }
+
+        .card13 .bx  {
+            position: absolute;
+            left: 20%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+        
+        .card14 .bx  {
+            position: absolute;
+            left: 44%;
+            font-size: 25px;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card15 .bx  {
+            position: absolute;
+            font-size: 25px;
+            left: 71%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .card16 .bx {
+            position: absolute;
+            font-size: 25px;
+            left: 96%;
+            padding: 7px 10px;
+            background: aqua;
+            border-radius: 1rem;
+        }
+
+        .contact-form {
+            margin-top: 5%;
+        }
+
+
+
+        .contact-form h2 {
+            color: yellow;
+            font-family: 'Bree Serif', serif;
+            font-size: 50px;
+            margin-bottom: 2%;
+            letter-spacing: .3em;
+            text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, 2px 2px 2px rgba(206,89,55,0);
+            background: #648bb3;
+            text-align: center;
+        }
+
+
+        .s-box{
+            text-align: center;
+            padding: 20px 30px;
+            margin-bottom: 40px;
+        }
+
+        .s-box2 img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .s-box h3{
+            margin: 4px 0 10px;
+            color: var(--main-color);
+            font-size: 40px;
+        }
+        .s-box p{
+            line-height: 1.2;
+            font-size: 20px;
+        }
+
+        .s-box2 h3{
+            margin: 4px 0 10px;
+            color: var(--main-color);
+            font-size: 40px;
+            text-align: center;
+        }
+        .s-box2 p{
+            margin-left: 18%;
+            line-height: 1.2;
+            font-size: 20px;
+        }
+        
+
+
+        /* Navbar */
+        
+        .navbar li{
+            display: inline-table;
+            background-color: #648bb3;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .navbar li:hover{
+            transform: scale(1.2) translateY(10px);
+            transition: .4s;
+        }
+        .navbar a{
+            color: var(--text-color);
+            font-size: 1.5rem;
+            padding: 10px 20px;
+            font-weight: 500;
+            
+        }
+         
+            
+        
+        .navbar a:hover{
+            color:yellow;
+            transition: .4s;
+        }
+        
+        #menu-icon{
+            font-size: 2rem;
+            cursor: pointer;
+            display: none;
+        }
+        
+
+        header{
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100%;
+            z-index: 1000;
+            display: flex;  
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 50px;
+            background: var(--bg-color);
+            margin-right: 25%;
+        }
+        
+        .about h1 {
+            padding-top: 20px;
+            font-size: 30px;
+            margin-top: 100px;
+        }
+
+        .about-info{
+            line-height: 45px;
+            font-size: 25px;
+        }
+
+        .about-info i{   
+        
+        margin-right: 20px;
+        margin-top: 30px;
+        font-size: 50px;
+        }
+
+        .outro {
+            margin-top: 5%;
+            font-size: 15px;
+            margin-bottom: 2%;
+        }
+       
+        .outro2 {
+            font-size: 15px;
+        }
+
+        
